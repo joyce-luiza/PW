@@ -1,0 +1,52 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+  body{
+    font-family: 'Inter', sans-serif;  
+    color: #212121;
+    }
+
+#profile, #education, #experience{
+    width: 50%;
+    margin: 2em auto;
+    padding: 3em;
+}
+
+
+#profile-photo{
+    width: 300px;
+    border-radius: 100%;
+}
+
+#profile-role{
+    opacity: .7;
+}
+
+#profile-description{
+    padding: 2em 0;
+    opacity: .7;
+}
+
+#contact-label{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#education > div, #experience > div {
+    margin-top: 2em;
+}
+
+.education-school{
+    padding: 2em 0;
+}
+
+.education-school p{
+    opacity: .7;
+}
+
+.experience-time{
+    font-size: 14px;
+    margin-bottom: 0;
+}
